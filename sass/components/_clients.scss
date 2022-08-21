@@ -26,14 +26,15 @@
   border-radius: 4px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients__link:hover,
-.clients__link:focus {
+&:hover,
+&:focus {
   /* color: #2196f3; */
   color: var(--main-accent-color);
   border: 1px solid var(--btn-bgc-color);
 }
+}
+
 
 .clients__icon {
   fill: currentColor;

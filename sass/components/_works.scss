@@ -1,16 +1,16 @@
 .works {
   padding-top: 0;
-}
 
-.works__main-title {
-  margin-bottom: 50px;
+  &__main-title {
+    margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+  }
 }
 
 .works-list {
@@ -45,4 +45,4 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
-  }
+}

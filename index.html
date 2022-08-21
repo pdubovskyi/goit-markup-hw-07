@@ -19,13 +19,15 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header__flex">
         <nav class="nav">
-          <a href="./index.html" class="logo header__logo"><span class="logo__color">Web</span>Studio</a>
+          <a href="./index.html" class="logo logo__color--dark header__logo"
+            ><span class="logo__color">Web</span>Studio</a
+          >
           <ul class="nav__list list">
             <li class="nav__item"><a class="nav__link current" href="./index.html">Студия</a></li>
             <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
@@ -53,7 +55,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero hero--padding">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn-hero btn" type="button" data-modal-open>
@@ -65,48 +67,48 @@
       <section class="benefits section">
         <div class="container">
           <h2 class="benefits__main-title visually-hidden">Наши преимущества</h2>
-          <ul class="benefits__list list">
-            <li class="benefits__item">
-              <a class="benefits__link" href="">
-                <svg class="benefits__icon" width="70" height="70">
+          <ul class="pictures__list list">
+            <li class="pictures__item">
+              <a class="pictures__link" href="">
+                <svg class="pictures__icon" width="70" height="70">
                   <use href="./images/features-icon-2.svg#icon-antenna"></use>
                 </svg>
               </a>
-              <h3 class="benefits__title">Внимание к деталям</h3>
-              <p class="benefits__text">
+              <h3 class="pictures__title">Внимание к деталям</h3>
+              <p class="pictures__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="benefits__item">
-              <a class="benefits__link" href="">
-                <svg class="benefits__icon" width="70" height="70">
+            <li class="pictures__item">
+              <a class="pictures__link" href="">
+                <svg class="pictures__icon" width="70" height="70">
                   <use href="./images/features-icon-2.svg#icon-clock"></use>
                 </svg>
               </a>
-              <h3 class="benefits__title">Пунктуальность</h3>
-              <p class="benefits__text">
+              <h3 class="pictures__title">Пунктуальность</h3>
+              <p class="pictures__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="benefits__item">
-              <a class="benefits__link" href="">
-                <svg class="benefits__icon" width="70px" height="70px">
+            <li class="pictures__item">
+              <a class="pictures__link" href="">
+                <svg class="pictures__icon" width="70px" height="70px">
                   <use href="./images/features-icon-2.svg#icon-diagram"></use>
                 </svg>
               </a>
-              <h3 class="benefits__title">Планирование</h3>
-              <p class="benefits__text">
+              <h3 class="pictures__title">Планирование</h3>
+              <p class="pictures__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li>
-              <a class="benefits__link" href="">
-                <svg class="benefits__icon" width="70" height="70">
+              <a class="pictures__link" href="">
+                <svg class="pictures__icon" width="70" height="70">
                   <use href="./images/features-icon-2.svg#icon-astronaut"></use>
                 </svg>
               </a>
-              <h3 class="benefits__title">Современные технологии</h3>
-              <p class="benefits__text">
+              <h3 class="pictures__title">Современные технологии</h3>
+              <p class="pictures__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -114,7 +116,7 @@
         </div>
       </section>
 
-      <section class="works section">
+      <section class="works works--padding section">
         <div class="container">
           <h2 class="works__main-title">Чем мы занимаемся</h2>
           <ul class="works-list list">
@@ -356,7 +358,9 @@
     <footer class="footer">
       <div class="container footer__box">
         <div class="footer-address">
-          <a href="./index.html" class="footer-logo"><span class="logo__color">Web</span>Studio</a>
+          <a href="./index.html" class="footer__logo footer__logo__color--white"
+            ><span class="logo__color">Web</span>Studio</a
+          >
           <address class="address">
             <ul class="address__list">
               <li class="address__item">
@@ -435,7 +439,6 @@
     </footer>
 
     <!--BACKDROP-->
-
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close>
@@ -504,7 +507,6 @@
         </form>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
